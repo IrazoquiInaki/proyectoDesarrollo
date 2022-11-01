@@ -1,3 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+footer {
+  background-color: #ffcc00;
+  border: solid 2px #ff3300;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+}
+footer .contactenos {
+  width: auto;
+  display: inline-flex;
+  flex-direction: row;
+  padding: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+footer .copyright {
+  width: 100%;
+  display: flex;
+  display: inline-flex;
+  font-size: larger;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+footer .copyright img {
+  width: 3%;
+}
+
+body {
+  background-color: #ffb84d;
+}
+body main {
+  font-family: "Kanit", sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+
+.mainIndex {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+.mainExperiencias {
+  width: 90%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.mainServicios {
+  width: 90%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.mainNosotros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 99%;
+}
+
+.animate__animated {
+  animation-fill-mode: none;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  margin: auto;
+  width: 100%;
+}
+header .navbar {
+  background-color: #ffcc00;
+  border: solid 2px #ff3300;
+}
+header .navbar .container-fluid .favicon {
+  width: 120px;
+  margin: 10px;
+}
+header .navbar .container-fluid .petLodging {
+  color: #ff3300;
+  font-style: italic;
+  text-align: center;
+  margin: 20px;
+  font-size: 60px;
+  font-family: "Kanit", sans-serif;
+}
+header .navbar .container-fluid .navbar-nav .nav-item {
+  display: inline-flex;
+  border: solid 3px #ff3300;
+  background-color: #ffeb99;
+  list-style: none;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  margin: 35px;
+  font-family: fantasy;
+}
+
+.presentacion1 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5%;
+}
+
+.imgHappybeagle {
+  width: 100%;
+  height: auto;
+}
+
+.presentacion2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  display: inline-block;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.smilydag {
+  width: 100%;
+  height: auto;
+}
+
+.spotify {
+  justify-content: center;
+  padding: 5%;
+  width: 100%;
+  grid-column: 1/span 2;
+}
+
+.textoServicios {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  padding: 100px;
+}
+
+.cuadroServicios {
+  padding: 5px;
+  border: solid 3px red;
+}
+
+.textoNosotros {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  padding: 5%;
+}
+
+.imgnosotros {
+  width: 100%;
+  justify-content: center;
+}
+
+.perro3 {
+  width: 100%;
+  height: auto;
+  padding: 10%;
+}
+
+.textoContacto {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+
+.mapa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.datosContacto {
+  list-style: none;
+}
+
+.perro4 {
+  width: 90%;
+  height: auto;
+  padding: 5%;
+}
+
+.perro5 {
+  width: 90%;
+  height: auto;
+  padding: 5%;
+}
+
+.perro6 {
+  width: 90%;
+  height: auto;
+  padding: 5%;
+}
 
 /*# sourceMappingURL=style.css.map */

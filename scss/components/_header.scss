@@ -1,0 +1,37 @@
+header{
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    width: 100%;
+    .navbar{
+        background-color: #ffcc00;
+        border: solid 2px #ff3300;
+        .container-fluid{
+            .favicon{
+                width: 120px;
+                margin: 10px;
+            }
+            .petLodging{
+                color: #ff3300;
+                font-style: italic;
+                text-align: center;
+                margin: 20px;
+                font-size: 60px;
+                font-family: 'Kanit', sans-serif;
+            }
+           .navbar-nav{
+            .nav-item{
+                display: inline-flex;
+                border: solid 3px #ff3300;
+                background-color: #ffeb99;
+                list-style: none;
+                text-align: center;
+                padding: 15px 15px 15px 15px;
+                margin: 35px;
+                font-family: fantasy;
+            }
+           } 
+        }
+
+    }
+}

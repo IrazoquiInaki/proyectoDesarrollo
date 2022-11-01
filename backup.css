@@ -1,3 +1,4 @@
+/*
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +44,6 @@ main{
     gap: 15px;
     align-items: center;
 }
-
 .petLodging{
     color: #ff3300;
     font-style: italic;
@@ -200,6 +200,7 @@ width: 50px;
     padding: 5px;
     border: solid 3px red;
 }
+*/
 @media only screen and (max-width:450px){
     .mainNosotros{
         font-size: 15px;
@@ -216,6 +217,7 @@ width: 50px;
     font-size: 15px;
     }
 }
+/*
 .mainNosotros{
     display: flex;
     justify-content: center;
@@ -224,3 +226,4 @@ width: 50px;
 .animate__animated{
     animation-fill-mode: none;
 }
+*/

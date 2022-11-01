@@ -1,0 +1,51 @@
+
+body{
+    background-color: #ffb84d;
+    main{
+        font-family: 'Kanit', sans-serif;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+.mainIndex{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+.mainExperiencias{
+    width: 90%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    font-size: 30px;
+    text-align: justify;
+}
+.mainServicios{
+    width: 90%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+.mainNosotros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 99%;
+}
+.animate__animated{
+    animation-fill-mode: none;
+}

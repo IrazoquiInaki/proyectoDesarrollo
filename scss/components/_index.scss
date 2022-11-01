@@ -1,0 +1,36 @@
+.presentacion1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    display:inline-block;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5%;
+    
+}
+.imgHappybeagle{
+    width: 100%;
+    height: auto;
+}
+.presentacion2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    display:inline-block;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.smilydag{
+    width: 100%;
+    height: auto;
+}
+.spotify{
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+    grid-column: 1/span 2;
+}
