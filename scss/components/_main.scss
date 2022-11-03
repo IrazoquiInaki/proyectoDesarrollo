@@ -39,12 +39,28 @@ body{
     margin: 5px;
     padding: 5px;
     font-size: 30px;
+
+    @media only screen and (max-width:450px){
+    width: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    }
 }
 .mainNosotros{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 99%;
+
+    @media only screen and (max-width:450px){
+        font-size: 15px;
+        width: 100%;
+        padding: 5%;
+    }
 }
 .animate__animated{
     animation-fill-mode: none;
