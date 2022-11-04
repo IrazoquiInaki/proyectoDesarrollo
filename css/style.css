@@ -59,12 +59,18 @@ body main {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   align-items: center;
-  font-family: "Kanit", sans-serif;
+  font-style: italic;
   margin: 5px;
   padding: 5px;
   justify-content: center;
   font-size: 30px;
   text-align: justify;
+}
+.mainExperiencias .textoExperiencias {
+  font-family: "Kanit", sans-serif;
+  border: solid 2px #ff3300;
+  background-color: #ffeb99;
+  padding: 15px;
 }
 
 .mainServicios {
@@ -133,7 +139,8 @@ header .navbar .container-fluid .petLodging {
 }
 header .navbar .container-fluid .navbar-nav .nav-item {
   display: inline-flex;
-  border: solid 3px #ff3300;
+  border-radius: 5px;
+  border: solid 4px #ff3300;
   background-color: #ffeb99;
   list-style: none;
   text-align: center;
@@ -193,6 +200,7 @@ header .navbar .container-fluid .navbar-nav .nav-item {
 .cuadroServicios {
   padding: 5px;
   border: solid 3px red;
+  background-color: #ffeb99;
 }
 
 .textoNosotros {

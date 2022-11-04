@@ -21,12 +21,18 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items: center;
-    font-family: 'Kanit', sans-serif;
+    font-style: italic;
     margin: 5px;
     padding: 5px;
     justify-content: center;
     font-size: 30px;
     text-align: justify;
+    .textoExperiencias{
+        font-family: 'Kanit', sans-serif;
+        border: solid 2px #ff3300;
+        background-color: #ffeb99;
+        padding: 15px;
+    }
 }
 .mainServicios{
     width: 90%;
