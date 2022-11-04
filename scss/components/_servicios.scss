@@ -1,12 +1,13 @@
+
 .textoServicios{
-    color: black;
+    color: nth($list: $colores, $n:4 );
     text-align: center;
-    font-size: 20px;
+    font-size: nth($list: $font-size, $n:2 );
     width: 100%;
     padding: 100px;
 }
 .cuadroServicios{
     padding: 5px;
-    border: solid 3px red;
-    background-color:#ffeb99;
+    border: solid 3px nth($list: $colores, $n:2 );
+    background-color:nth($list: $colores, $n:5 );
 }

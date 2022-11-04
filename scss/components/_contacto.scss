@@ -1,14 +1,13 @@
 .textoContacto{
-    color: black;
+    color: nth($list: $colores, $n:4 );
     text-align: center;
-    font-size: 30px;
+    font-size: nth($list: $font-size, $n:3 );
     width: 100%;
 
 }
 .mapa{
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     padding: 5%;
 }
 .datosContacto{

@@ -5,6 +5,20 @@
   box-sizing: border-box;
 }
 
+/* extends */
+/* placeholder = % */
+.mapa, .presentacion2, .presentacion1, .mainNosotros, footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+%bordes{
+    border: solid 2px red;
+    color: azure;
+}
+*/
 footer {
   background-color: #ffcc00;
   border: solid 2px #ff3300;
@@ -22,12 +36,9 @@ footer .contactenos {
 }
 footer .copyright {
   width: 100%;
-  display: flex;
   display: inline-flex;
   font-size: larger;
   padding: 15px;
-  align-items: center;
-  justify-content: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
@@ -67,8 +78,8 @@ body main {
   text-align: justify;
 }
 .mainExperiencias .textoExperiencias {
-  font-family: "Kanit", sans-serif;
-  border: solid 2px #ff3300;
+  font-style: normal;
+  border: solid 3px #ff3300;
   background-color: #ffeb99;
   padding: 15px;
 }
@@ -98,8 +109,6 @@ body main {
 }
 
 .mainNosotros {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   width: 99%;
 }
@@ -154,7 +163,6 @@ header .navbar .container-fluid .navbar-nav .nav-item {
   text-align: center;
   font-size: 30px;
   display: inline-block;
-  display: flex;
   flex-direction: row;
   width: 100%;
   padding: 5%;
@@ -172,7 +180,6 @@ header .navbar .container-fluid .navbar-nav .nav-item {
   width: 100%;
   display: inline-block;
   padding: 5%;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -199,7 +206,7 @@ header .navbar .container-fluid .navbar-nav .nav-item {
 
 .cuadroServicios {
   padding: 5px;
-  border: solid 3px red;
+  border: solid 3px #ff3300;
   background-color: #ffeb99;
 }
 
@@ -231,8 +238,6 @@ header .navbar .container-fluid .navbar-nav .nav-item {
 
 .mapa {
   width: 100%;
-  display: flex;
-  justify-content: center;
   padding: 5%;
 }
 
